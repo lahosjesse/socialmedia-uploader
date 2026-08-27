@@ -1,6 +1,6 @@
 # Socialmedia Uploader public site
 
-**Version:** 1.0.0
+**Version:** 1.0.1
 
 ## Purpose
 
@@ -19,6 +19,7 @@ This static GitHub Pages site provides the official homepage, Terms of Use, and 
 2. `terms.html` — conditions for personal use of the uploader.
 3. `privacy.html` — disclosure of local processing and third-party API use.
 4. `assets/app-icon.png` — public application icon.
+5. `tiktokivHPvYM0eG7Ek1LyFlAtf7LCifp4M5Wy.txt` — TikTok URL-prefix ownership signature.
 
 ## Security boundary
 
