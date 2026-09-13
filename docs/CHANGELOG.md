@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.1.0 — 2026-09-13 19:40 America/Sao_Paulo
+
+### Changed
+
+- The local project name is clarified as `Socialmedia-Uploader-Web` so it is not
+  confused with the uploader runtime inside `SOCIALMEDIA`.
+- Legacy `docs/projeto.md` was replaced by focused `docs/OPERATIONS.md`.
+
+### Safety
+
+- The GitHub repository and Pages slug remain `socialmedia-uploader`; OAuth,
+  Terms, Privacy and verification URLs are not renamed.
+
 ## v1.0.1 — 2026-08-27 15:17 America/Sao_Paulo
 
 ### Added
