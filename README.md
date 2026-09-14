@@ -1,8 +1,9 @@
-# Socialmedia Uploader Web
+# Socialmedia Uploader Site
 
-Public website and legal pages for the personal desktop application
-**Socialmedia Uploader**. This is not the uploader runtime; that code lives in
-the `SOCIALMEDIA` repository.
+Public website and legal pages for **Socialmedia Uploader**. This directory is
+a component of the `SOCIALMEDIA` repository and is the source of truth for the
+site. It does not execute uploads; the runtime lives in the sibling directory
+`../SOCIALMEDIA_uploader`.
 
 ## Project structure
 
@@ -16,13 +17,14 @@ the `SOCIALMEDIA` repository.
 
 See [operations](docs/OPERATIONS.md) and [changelog](docs/CHANGELOG.md).
 
-The local directory is named `Socialmedia-Uploader-Web`. The GitHub repository
-retains `socialmedia-uploader` so existing GitHub Pages, OAuth, Terms and Privacy
-URLs remain stable.
+The legacy GitHub repository `lahosjesse/socialmedia-uploader` is only the Pages
+deployment target. Its existing OAuth, Terms, Privacy and verification URLs
+must remain stable.
 
 ## Security
 
-This repository contains no API credentials, OAuth tokens, passwords, sessions, cookies, or user media.
+This directory contains no API credentials, OAuth tokens, passwords, sessions,
+cookies or user media.
 
 ## License
 

@@ -1,4 +1,4 @@
-# Socialmedia Uploader Web — operations
+# Socialmedia Uploader Site — operations
 
 ## Purpose
 
@@ -8,10 +8,14 @@ integrations. It does not contain or run the uploader.
 
 ## Publishing flow
 
-1. Edit the static HTML locally.
+1. Edit the static HTML in `SOCIALMEDIA/SOCIALMEDIA_uploader_site`.
 2. Verify links and confirm that no secret or personal media is present.
-3. Publish through a reviewed branch and Pull Request.
-4. Confirm GitHub Pages still serves the existing public URLs.
+3. Publish the change through a reviewed branch and Pull Request in
+   `lahosjesse/SOCIALMEDIA`.
+4. Deploy this directory to the legacy `lahosjesse/socialmedia-uploader`
+   GitHub Pages repository without treating that deployment target as an
+   independent source project.
+5. Confirm GitHub Pages still serves the existing public URLs.
 
 ## Files
 
@@ -25,6 +29,6 @@ integrations. It does not contain or run the uploader.
 
 The site does not receive credentials, tokens, uploaded videos, captions or
 analytics. Runtime secrets remain on the authorized local computer and are
-never committed. The repository name stays `socialmedia-uploader` to avoid
-breaking public URLs; only the local folder uses the clearer
-`Socialmedia-Uploader-Web` name.
+never committed. The legacy Pages destination keeps the name
+`socialmedia-uploader` only to avoid breaking public URLs. All source changes
+originate in `SOCIALMEDIA_uploader_site` inside the `SOCIALMEDIA` repository.

@@ -1,5 +1,20 @@
 # Changelog
 
+## v2.0.0 — 2026-09-14 14:00 America/Sao_Paulo
+
+### Changed
+
+- The site source is consolidated into `SOCIALMEDIA/SOCIALMEDIA_uploader_site`.
+- `lahosjesse/SOCIALMEDIA` is now the only development source of truth.
+- The legacy `lahosjesse/socialmedia-uploader` repository is retained only as
+  the GitHub Pages deployment destination so public integration URLs remain
+  stable.
+
+### Safety
+
+- The previous Git history was imported into the parent repository.
+- No credentials, OAuth tokens, sessions or user media were migrated.
+
 ## v1.1.0 — 2026-09-13 19:40 America/Sao_Paulo
 
 ### Changed
